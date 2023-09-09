@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #1f1f1d;
+  color: white;
+}
+
+main {
+  margin: 24px;
+  background-color: hsl(0, 0%, 0%);
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+section {
+  padding: 12px 24px 24px;
+}
+
+h1 {
+  text-align: center;
+  margin: 8px 18px;
+}
+
+#myTrack {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(207, 156, 156);
+  margin: 0 0px 12px;
+  color: white;
+  font-weight: lighter;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  background-color: white;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding: 8px 0;
+  border-radius: 10px; 
+  margin-bottom: 12px;
+}
+
+a:hover {
+  color: white;
+  transition: ease-in .4s;
+  background-color: blue;
+}
+
+p:last-of-type {
+  font-family: Inter, sans-serif;
+  margin-top: 20px;
+  line-height: 24px;
+  font-weight: light;
+  letter-spacing: 0px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    width: 30%;
+    margin: 24px auto;
+  }
+}
